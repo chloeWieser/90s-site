@@ -6,9 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Black Jack</title>
     <!-- `./` if the file is in the same directory as the HTML file- in this case i'm using ./CSS/ bc its in a folder within the CSS file in the same directory -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        #navbar 
+        a{
+            color: yellow;
+            background-color: rgb(2, 47, 2);
+            padding: 10px;
+            font-style: 40px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+                /* descendant styles */
+        #navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-style: 40px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #navbar a:hover{
+            text-decoration: underline;
+            color: yellow
+        }
+
+
+
+    </style>
+
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css" /> <!--link tag-->
+    
 </head>
 <body>
+    <div id="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./How_to_play.html">How to Play</a>
+        <a href="./Rules.html">The Rules</a>
+    </div>
     <h1>All About Black Jack</h1>
     <div>
         <H2>What is Black Jack?</H2>

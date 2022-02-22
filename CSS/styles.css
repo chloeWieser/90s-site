@@ -1,17 +1,18 @@
 body {
-    background-color: green;
+    color: yellow;
+    background-color: rgb(0, 51, 0);
   }
   
   h1 {
     font-size: 40px;
   }
 
-  .myClass {
+  /* .myClass {
     background-color: #ccc;
     padding: 50px;
     border: 20px solid black;
     margin: 40px;
-  }
+  } */
 
   a {
     color:aquamarine
